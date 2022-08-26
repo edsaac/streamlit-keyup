@@ -7,7 +7,8 @@ But, what if you want to get the input out, and do something with it every time 
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://key-up.streamlitapp.com)
 
-![filtering](https://user-images.githubusercontent.com/4040678/186792601-a9e921e8-3051-45a0-80d6-e1673cf8ae37.gif)
+![filtering](https://user-images.githubusercontent.com/34405119/186949358-3b7c3dc7-ba52-42b0-9cf8-5aaee7c189ec.gif)
+
 
 ## Installation
 
