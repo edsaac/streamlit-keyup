@@ -1,6 +1,6 @@
 import pandas as pd
 import streamlit as st
-
+import re
 from st_keyup import st_keyup
 
 
@@ -15,7 +15,7 @@ cities = get_cities()
 name = st_keyup("Enter city name")
 
 if name:
-    filtered = cities[cities.City.str.lower().str.contains(name.lower(), na=False)]
+    filtered = cities[cities["City"].str.contains(name, flags=re.IGNORECASE, na=False)]
 else:
     filtered = cities
 
